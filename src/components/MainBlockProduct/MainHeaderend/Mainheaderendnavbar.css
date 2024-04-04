@@ -1,0 +1,30 @@
+#mainheader {
+	background: #5575c9;
+	height: 65vh;
+}
+.mainheaderakvi p {
+	width: 290px;
+	font-size: 20px;
+	font-weight: 520;
+	color: white;
+	margin: 25px 0;
+}
+.mainheaderakvi button {
+	width: 120px;
+	padding: 10px;
+	outline: none;
+	border-radius: 3px;
+	border: none;
+}
+.mainheaderakvi h1 {
+	color: white;
+}
+.mainheader {
+	padding-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.headermainimage img {
+	width: 620px;
+}
