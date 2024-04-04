@@ -1,6 +1,6 @@
 import React from 'react'
 import './Mainheaderendnavbar.css'
-import vector from '../.././../image/Vector.svg'
+import vector from '../../../image/Vector (1).svg'
 const Mainheaderendnavbar: React.FC = () => {
 	return (
 		<div id='mainheader'>

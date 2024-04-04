@@ -10,19 +10,7 @@ const Mainheaderstartnavbar: React.FC = () => {
 				<div className='mainheaderstart'>
 					<div className='mainheaderend'>
 						<IoMenu className='admin' />
-							<select>
-							<option>Категория </option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-							<option>Мужские одужды</option>
-						</select>
+						<a href='#'>Категория</a>
 					</div>
 					<div className='mainheadeitem'>
 						<a href='#'>О нас</a>
@@ -31,8 +19,7 @@ const Mainheaderstartnavbar: React.FC = () => {
 						<a href='#'>Контакты</a>
 					</div>
 					<div className='mainheaderinput'>
-						<IoSearch className='search'/>
-
+						<IoSearch className='search' />
 						<input type='text' placeholder='Поиск...' />
 					</div>
 				</div>
