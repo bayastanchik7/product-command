@@ -5,15 +5,26 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 15px 0;
+	/* margin: 15px 0; */
 }
 .mainheadeitem a {
 	margin: 0 20px;
 }
 .admin {
-	font-size: 110px;
+	font-size: 90px;
 	height: 26px;
-	margin-bottom: -8px;
+	margin-bottom: -5px;
+	color: white;
+}
+.mainheaderend a {
+	color: white;
+	font-size: 22px;
+	font-weight: 500;
+}
+.mainheadeitem a {
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	font-weight: 543;
 }
 .mainheaderinput input {
 	background: #ffffff;
@@ -30,9 +41,33 @@
 	padding: 10px;
 	border: none;
 	outline: none;
+	margin: 0 -2.2pc;
 }
 .search {
 	position: relative;
 	left: 33pc;
 	top: 2px;
+}
+.mainheaderend {
+	background: #71be00;
+	width: 320px;
+	padding: 20px;
+}
+.mainstart {
+	display: flex;
+	align-items: center;
+	gap: 1.2pc;
+	background: rgb(223, 214, 199);
+	width: 330px;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+.block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.maintext h3 {
+	margin: 8px 0;
 }
